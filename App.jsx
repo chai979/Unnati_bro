@@ -1,6 +1,6 @@
 import { useState } from "react";
-
 import Welcome from "./components/Welcome";
+
 import ApologySection from "./components/ApologySection";
 import BubbleSection from "./components/BubbleSection";
 import MemoryGallery from "./components/MemoryGallery";

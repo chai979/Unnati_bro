@@ -1,7 +1,7 @@
-import img1 from "./Photo1.jpeg";
-import img2 from "./Photo2.jpeg";
-import img3 from "./Photo3.jpeg";
-import img4 from "./Photo4.png";
+import img1 from "Photo1.jpeg";
+import img2 from "Photo2.jpeg";
+import img3 from "Photo3.jpeg";
+import img4 from "Photo4.png";
 
 const memories = [
   {

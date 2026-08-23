@@ -1,7 +1,7 @@
-import img1 from "Photo1.jpeg";
-import img2 from "Photo2.jpeg";
-import img3 from "Photo3.jpeg";
-import img4 from "Photo4.png";
+import img1 from "../assets/Photo1.jpeg";
+import img2 from "../assets/Photo2.jpeg";
+import img3 from "../assets/Photo3.jpeg";
+import img4 from "../assets/Photo4.png";
 
 const memories = [
   {
@@ -30,7 +30,7 @@ export default function MemoryGallery() {
       <div className="gallery">
         {memories.map((m, index) => (
           <div className="photo" key={index}>
-            <img src={m.img} alt="" />
+            <img src={m.img} alt={m.caption} />
             <p>{m.caption}</p>
           </div>
         ))}

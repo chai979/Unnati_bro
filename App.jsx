@@ -1,14 +1,14 @@
 import { useState } from "react";
 import Welcome from "./components/Welcome";
 
-import ApologySection from "./components/ApologySection";
-import BubbleSection from "./components/BubbleSection";
-import MemoryGallery from "./components/MemoryGallery";
-import MissYouSection from "./components/MissYouSection";
-import AngerMeter from "./components/AngerMeter";
-import SecondChance from "./components/SecondChance";
-import ForgiveButtons from "./components/ForgiveButtons";
-import FooterMessage from "./components/FooterMessage";
+import ApologySection from "./ApologySection";
+import BubbleSection from "./BubbleSection";
+import MemoryGallery from "./MemoryGallery";
+import MissYouSection from "./MissYouSection";
+import AngerMeter from "./AngerMeter";
+import SecondChance from "./SecondChance";
+import ForgiveButtons from "./ForgiveButtons";
+import FooterMessage from "./FooterMessage";
 
 export default function App() {
 
